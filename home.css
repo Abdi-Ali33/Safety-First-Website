@@ -60,3 +60,39 @@ h4{
     color: #bb9981 ;
     font-weight: bold;
 }
+.patners{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#media{
+    display: flex;
+    justify-content: space-around;
+}
+#footer{
+    text-align: center;
+   
+    
+}
+.footer{
+    background-color: #5c3d2e;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+}
+.fa-facebook{
+    color: rgb(12, 12, 250);
+    font-size: 35px;
+}
+.fa-whatsapp{
+    color: rgb(17, 243, 17);
+    font-size: 35px;
+}
+.fa-twitter{
+    color: blue;
+    font-size: 35px;
+}
+.fa-youtube{
+    color: red;
+    font-size: 35px;
+}
