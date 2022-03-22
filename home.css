@@ -12,3 +12,28 @@
 .navbar-nav a{
     color: white;
 }
+
+.background{
+    background-image: url("./images/securitybackimage2.webp");
+    background-size: cover;
+    height: 700px;
+    filter: brightness(60%);
+    font-weight: bold;
+    opacity: 0.9;
+
+
+}
+   #back{ 
+    padding-top: 400px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    
+
+}
+#marquee{
+    color: #f9a400;
+    font-size: 30px;
+    font-weight: bold;
+}
