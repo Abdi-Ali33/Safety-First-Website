@@ -1,14 +1,28 @@
-body{
-    background-color:rgb(187, 153, 129) ;
-    font-family: 'Montserrat', sans-serif;
-    /* font-family: 'Playfair Display', serif; */
-    }
-    
-    .navbar{
-        justify-content: space-around;
-        background-color: #5c3d2e;
-         color: white; 
-    }
-    .navbar-nav a{
-        color: white;
-    }
+body {
+  background-color: rgb(187, 153, 129);
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+}
+
+.navbar {
+  justify-content: space-around;
+  background-color: #5c3d2e;
+  color: white;
+}
+.navbar-nav a {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1cm;
+  font-size: 1.3cm;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#cont1 {
+  text-align: justify;
+}
