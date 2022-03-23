@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+ font-family:'Montserrat' ;
+}
+
+ .navbar{
+    justify-content: space-around;
+    background-color: #5c3d2e;
+    color: white; 
+}
+.navbar-nav a{
+    color: white;
+} 
+
+.background{
+    background-image: url("./images/securitybackimage2.webp");
+    background-size: cover;
+    height: 700px;
+    filter: brightness(60%);
+    font-weight: bold;
+    opacity: 0.9;
+
+
+}
+   #back{ 
+    padding-top: 400px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    
+
+}
+#marquee{
+    color: #f9a400;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color:#bb9981 ;
+    border-radius: 10px;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+#comments{
+    text-align: center;
+    padding-top: 50px;
+}
+.fa-solid {
+    color: #99840d  ;
+}
+h2{
+    font-size: 30px;
+    color: #5c3d2e;
+}
+h4{
+    font-size: 20px;
+    color: #bb9981 ;
+    font-weight: bold;
+}
+.patners{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#media{
+    display: flex;
+    justify-content: space-around;
+}
+#footer{
+    text-align: center;
+   
+    
+}
+.footer{
+    background-color: #5c3d2e;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+}
+.fa-facebook{
+    color: rgb(12, 12, 250);
+    font-size: 35px;
+}
+.fa-whatsapp{
+    color: rgb(17, 243, 17);
+    font-size: 35px;
+}
+.fa-twitter{
+    color: blue;
+    font-size: 35px;
+}
+.fa-youtube{
+    color: red;
+    font-size: 35px;
+}
