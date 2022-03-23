@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Montserrat:wght@200&family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.products {
+  background: url(https://images.unsplash.com/photo-1586991362097-2b4c41a7f25d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.prod1 {
+  display: flex;
+}
+.prod2 {
+  display: flex;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.p1 {
+  background-color: white;
+  color: #5e4535;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px #eae0c8;  */
+}
+.p2 {
+  /* background-color:#5e4535; */
+  background-color: white;
+  color: #5e4535;
+  /* color: white; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px #eae0c8;  */
+}
+.p3 {
+  /* background-color: white; */
+  /* background-color:#5e4535; */
+  background-color: white;
+  color: #5e4535;
+  /* color: white; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px #eae0c8;  */
+}
+.p4 {
+  /* background-color: white; */
+  /* background-color:#5e4535; */
+  background-color: white;
+  color: #5e4535;
+  /* color: white; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px #eae0c8;  */
+}
+.p5 {
+  /* background-color: white; */
+  /* background-color:#5e4535; */
+  background-color: white;
+  color: #5e4535;
+  /* color: white; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px #eae0c8;  */
+}
+.p6 {
+  /* background-color: white; */
+  /* background-color:#5e4535; */
+  background-color: white;
+  color: #5e4535;
+  /* color: white; */
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 3px 3px 3px ;  */
+}
+.pr1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 20px;
+}
+.exp1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.exp2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.exp3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+#bt {
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+  border-radius: 10px;
+  border-width: thin;
+  border-color: white;
+  margin-left: 550px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.edittext {
+  font-size: 30px;
+  color: white;
+  display: none;
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bolder;
+}
+#quant1 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+#quant2 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+#quant3 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+#quant4 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+#quant5 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+#quant6 {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+@media screen and (max-width: 500px) {
+  .prod1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .prod2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .p1 {
+    background-color: white;
+    text-align: center;
+  }
+  .p2 {
+    background-color: white;
+    text-align: center;
+  }
+  .p3 {
+    background-color: white;
+    text-align: center;
+  }
+  .p4 {
+    background-color: white;
+    text-align: center;
+  }
+  .p5 {
+    background-color: white;
+    text-align: center;
+  }
+  .p6 {
+    background-color: white;
+    text-align: center;
+  }
+  .pr1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  #bt {
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: thin;
+    border-color: white;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
