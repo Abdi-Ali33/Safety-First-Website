@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/6644dc7bfb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar- ">
+        <a class="navbar-brand" id="logo" href="home.html"><img src="./images/safetylogo2.png" height="50"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="list" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto" id="nav0">
+                <li class="nav-item"><a class="nav-link" href="home.html">Home <span class="sr-only"></span></a> </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a> </li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hero">
+                <h2>How can we help?</h2>
+            </div>
+        </div>
+        <div class="row row1 p-5">
+            <div class="col-md-7">
+                <form class="form" action="input">
+                    <div class="names">
+                        <div class="first">
+                            <label for="name">First name</label>
+                            <input type="text" placeholder="firstname" name="firstname" id="firstname" required/>
+                        </div>
+                        <div class="second">
+                            <label for="name">Second name</label>
+                            <input type="text" placeholder="secondname" name="secondname" id="secondname" required/>
+                        </div>
+                    </div>
+                    <div class="mail-message">
+                        <label for="name">Email</label>
+                        <input type="email" placeholder="myname@example.com" name="email" id="email" required/>
+                        <label id="msglabel" for="name">Message</label>
+                        <textarea name="user-message" id="message" cols="90" rows="12"
+                            placeholder="Your message here..." required></textarea>
+                    </div>
+                    <div class="butn">
+                        <button id="btn" type="button">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 col2">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="400" height="450" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=ngong%20road&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://putlocker-is.org">putlocker</a><br />
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 450px;
+                                width: 400px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">google maps webpage</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 450px;
+                                width: 400px;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <p id="locate">
+                    Ngong Road,<br />Kilimani Towers,<br />suite 547, Nairobi
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-md-3" id="media">
+                    <div><i class="fa-brands fa-facebook"></i></div>
+                    <div></i><i class="fa-brands fa-whatsapp"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                </div>
+                <div class="col-md-3">
+                    <h6>Contact Us</h6>
+                    <p>0728000000</p>
+                </div>
+                <div class="col-md-6" id="patners">
+                    <h5>Our Patners</h5>
+                    <div class="patners">
+                        <div><img src="./images/safeEcosoc (1).png" height="50"></div>
+                        <div><img src="./images/safeforus.png" height="50"></div>
+                        <div><img src="./images/safeAfd.png" height="50"></div>
+                        <div><img src="./images/safecivicus.png" height="50"></div>
+                        <div><img src="./images/safesdsn.png" height="50"></div>
+                        <div><img src="./images/safeIndonesia.png" height="0"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">COPYRIGHT@2022 SAFETY FIRST-ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+<script src="./js/jquery-3.6.0.js"></script>
+<script src="./js/contact.js"></script>
+
+
+</html>
