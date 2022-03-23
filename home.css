@@ -4,14 +4,14 @@
  font-family:'Montserrat' ;
 }
 
-.navbar{
+ .navbar{
     justify-content: space-around;
     background-color: #5c3d2e;
-     color: white; 
+    color: white; 
 }
 .navbar-nav a{
     color: white;
-}
+} 
 
 .background{
     background-image: url("./images/securitybackimage2.webp");
