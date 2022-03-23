@@ -26,3 +26,38 @@ h1 {
 #cont1 {
   text-align: justify;
 }
+#cont2{
+    padding-top: 2cm;
+    padding-left: 1cm;
+}
+
+#row1{
+    align-self: center;
+    width:28cm;
+    height: 15cm;
+    /* background-color: red; */
+}
+
+#img1{
+    width:16.5cm;
+    height: 15cm;
+}
+
+#img2{
+    width:16.5cm;
+    height: 15cm;
+}
+
+#img3{
+    width:16.5cm;
+    height: 15cm;
+}
+
+#img4{
+    width:16.5cm;
+    height: 15cm;
+}
+
+h5{
+    color: black;
+}
