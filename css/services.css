@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f7f6ff;
+}
+.my-form {
+  display: none;
+}
+.all-body {
+  max-width: 800px;
+  margin: auto;
+}
+.heading-section {
+  text-align: center;
+}
+.heading-section h1 {
+  font-size: 60px;
+  font-weight: 70px;
+}
+.coloring {
+  color: #f7c08a;
+}
+.coloring-choose {
+  color: #c77420;
+}
+.heading-section p {
+  display: inline;
+}
+.forms-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+/* styling of choose category starts here */
+.select-box {
+  width: 270px;
+}
+
+.select-box .options-container {
+  background: #0e3369;
+  color: #f5f6fa;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  background: #31a131;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #f5f6fa;
+  position: relative;
+
+  order: 0;
+}
+
+.selected::after {
+  content: "";
+  background: url("img/arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+  top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #414b57;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.select-box .option .radio {
+  display: none;
+}
+#contact-form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#contact-form textarea {
+  height: 500px;
+}
+/* styling choose category ends here */
+/* styling of whole form*/
+.forms-section input {
+  /* width: 50%; */
+  padding: 6px;
+  border: 1px #ddd solid;
+}
+.forms-section input:focus {
+  outline: none;
+  border-color: #b8630e;
+}
+.form-heading button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 5px 10px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.form-heading button:hover {
+  background-color: #2ecc71;
+}
+.form-right button {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 10px 20px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.form-right button:hover {
+  background-color: #2ecc71;
+}
+.form-left input[type="radio"] {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.form-left .radio + .radio {
+  margin-left: 20px;
+}
+.form-heading button {
+  display: inline-block;
+}
+.form-heading button {
+  margin-left: 15px;
+}
+.form-left .email {
+  margin-top: 15px;
+}
+.form-left #Name {
+  margin-bottom: 15px;
+}
+.form-left .yes {
+  font-size: 20px;
+  font-weight: 30px;
+}
+/* SAFETY TIPS STYLING STARTS HERE */
+.safety-tips {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.safety-tips h4 {
+  text-align: center;
+}
