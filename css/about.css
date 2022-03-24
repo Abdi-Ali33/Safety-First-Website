@@ -27,80 +27,161 @@ h1 {
   text-align: justify;
 }
 
-#cont2{
-    padding-top: 2cm;
-    padding-left: 1cm;
+#cont2 {
+  padding-top: 2cm;
+  padding-left: 1cm;
 }
 
-#row1{
-    align-self: center;
-    width:28cm;
-    height: 15cm;
-    /* background-color: red; */
+#row1 {
+  align-self: center;
+  width: 28cm;
+  height: 15cm;
+  /* background-color: red; */
 }
 
-#img1{
-    width:16.5cm;
-    height: 15cm;
+#img1 {
+  width: 16.5cm;
+  height: 15cm;
 }
 
-#img2{
-    width:16.5cm;
-    height: 15cm;
+#img2 {
+  width: 16.5cm;
+  height: 15cm;
 }
 
-#img3{
-    width:16.5cm;
-    height: 15cm;
+#img3 {
+  width: 16.5cm;
+  height: 15cm;
 }
 
-#img4{
-    width:16.5cm;
-    height: 15cm;
+#img4 {
+  width: 16.5cm;
+  height: 15cm;
 }
 
-h5{
-    color: black;
+h5 {
+  color: black;
 }
 
-#cont3{
-    text-align: justify; 
+#cont3 {
+  text-align: justify;
 }
 
-.patners{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
+.patners {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
 }
 
-#media{
-    display: flex;
-    justify-content: space-around;
+#media {
+  display: flex;
+  justify-content: space-around;
 }
-#footer{
-    text-align: center;
-   
-    
+#footer {
+  text-align: center;
 }
-.footer{
-    background-color: #5c3d2e;
-    color: white;
-    margin-top: 5%;
-    padding: 20px;
+.footer {
+  background-color: #5c3d2e;
+  color: white;
+  margin-top: 5%;
+  padding: 20px;
 }
-.fa-facebook{
-    color: rgb(12, 12, 250);
-    font-size: 35px;
+.fa-facebook {
+  color: rgb(12, 12, 250);
+  font-size: 35px;
 }
-.fa-whatsapp{
-    color: rgb(17, 243, 17);
-    font-size: 35px;
+.fa-whatsapp {
+  color: rgb(17, 243, 17);
+  font-size: 35px;
 }
-.fa-twitter{
-    color: blue;
-    font-size: 35px;
+.fa-twitter {
+  color: blue;
+  font-size: 35px;
 }
-.fa-youtube{
-    color: red;
-    font-size: 35px;
+.fa-youtube {
+  color: red;
+  font-size: 35px;
+}
+
+#logo {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  background-color: #5c3d2e;
+  color: white;
+  padding: 20px;
+}
+
+.fa-facebook {
+  color: rgb(12, 12, 250);
+  font-size: 35px;
+}
+
+.fa-whatsapp {
+  color: rgb(17, 243, 17);
+  font-size: 35px;
+}
+
+.fa-twitter {
+  color: blue;
+  font-size: 35px;
+}
+
+.fa-youtube {
+  color: red;
+  font-size: 35px;
+}
+
+#media {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+.navbar {
+  justify-content: space-between;
+  background-color: #5c3d2e;
+  color: white;
+}
+
+#nav0 {
+  justify-content: space-between;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  margin-top: 10px;
+}
+
+#media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.patners {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+.patners img {
+  width: 100px;
+  height: 50px;
+}
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
